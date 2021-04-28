@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Bookings</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/d8cfbe84b9.js" crossorigin="anonymous"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                    <a href="#" class="nav-item nav-logo">Logo</a>
+            </div>
+                
+            <ul>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+                <li class="nav-item"><a href="#">Gallery</a></li>
+            </ul>
+            <div>
+                <a href="#" class="login nav-item"><i class="fas fa-sign-in-alt" style="margin-right: 0.4rem;"></i>Login</a>
+                <a href="#" class="pnr nav-item">PNR Enquiry</a>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div id="route-search-form">
+            <h1>Find Routes</h1>
+            <form action="">
+                <div>
+                    <label for="source">Source</label><br>
+                    <input type="text" id="source" name="source">
+                </div>
+                <div>
+                    <label for="destination">Destination</label><br>
+                    <input type="text" id="destination" name="destination">
+                </div>
+                <div>
+                    <label for="departure">Date of Departure</label><br>
+                    <input type="date" id="departure" name="departure">
+                </div>
+                <div>
+                    <button type="button" name="search">Search</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
