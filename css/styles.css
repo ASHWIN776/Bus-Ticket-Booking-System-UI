@@ -67,6 +67,7 @@ nav a:not(.nav-logo):hover{
     background-image: url("../img/home-bg.jpg");
     background-size: cover;
     background-position: 60% 65%;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -128,3 +129,33 @@ button:hover{
     color: #201E22;
     cursor: pointer;
 }
+
+#block{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#info-num{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+
+#info-num figure{
+    margin: 0 3rem;
+    text-align: center;
+}
+
+#info-num figcaption{
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+#info-num .num{
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+}
+
