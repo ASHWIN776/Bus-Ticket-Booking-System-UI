@@ -22,6 +22,8 @@
         justify-content: space-between;
         width: 80%;
         margin: 0 auto;
+        padding-top: 1rem;
+        /* border: 2px solid; */
     }
 
     nav > div{
@@ -35,6 +37,7 @@
     nav ul{
         /* border: 2px solid; */
         list-style-type: none;
+        margin: 0; 
         padding: 0;
         display: flex;
         flex-grow: 1;
@@ -216,6 +219,28 @@
     footer{
         height: 60vh;
     }
+/* Tablet */
+    @media only screen and (min-width: 768px){
+        nav, #block{
+            width: 100%;
+        }
+
+        #route-search-form{
+            right: ;
+        }
+
+
+    }
+/* Desktops */
+    @media only screen and (min-width: 992px){
+        
+    }
+
+/* mob */
+    @media only screen and (max-width: 768px){
+        
+    }
+
 </style>
 
 
