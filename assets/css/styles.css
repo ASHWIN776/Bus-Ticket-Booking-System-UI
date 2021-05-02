@@ -98,14 +98,19 @@ form{
     margin: 1rem 0;
 }
 
-form input{
-    margin-top: 0.8rem;
+form input, form textarea{
     border: 2px solid black;
     outline: none;
     width: 100%;
     font-size: inherit;
     border-radius: 5px;
 }
+
+
+#route-search-form form input{
+    margin-top: 0.8rem;
+}
+
 
 #route-search-form form div:last-child{
     text-align: center;
@@ -221,6 +226,31 @@ form button:hover{
 #about p{
     line-height: 26px;
 }
+
+#contact{
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+}
+
+#contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+#contact-form h1{
+    margin-top: 0;
+    text-align: center;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#contact-form div{
+    margin-top: 1rem;
+}
+
 
 footer{
     height: 60vh;
@@ -355,4 +385,8 @@ footer{
         width: 50%;
     }
 
+    #contact-form{
+        width: 438px;
+        margin: 0 auto;
+    }
 }
