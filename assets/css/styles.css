@@ -12,10 +12,15 @@ body, html{
 
 nav{
     text-align: center;
+    padding: 1.5rem 0;
 }
 
 nav div, nav ul{
     margin-top: 1rem;
+}
+
+nav div:first-child{
+    margin-top: 0;
 }
 
 nav > div a{
@@ -129,7 +134,6 @@ form button:hover{
 
 #info-num figure{
     flex-basis: 30%;
-    margin-top: 2rem;
     padding: 2rem 0;
     text-align: center;
     border-radius: 5px;
@@ -310,7 +314,7 @@ footer{
         top: 22%;
         right: 15%;
         width: 25rem;
-        padding: 1rem 2rem;
+        padding: 2.5rem 2rem;
     }
 
     #block{
