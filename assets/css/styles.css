@@ -205,6 +205,21 @@ form button:hover{
     cursor: pointer;
 }
 
+#about{
+    text-align: center;
+    width: 90%;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+#about h2{
+    text-align: center;
+}
+
+#about p{
+    line-height: 26px;
+}
+
 footer{
     height: 60vh;
 }
