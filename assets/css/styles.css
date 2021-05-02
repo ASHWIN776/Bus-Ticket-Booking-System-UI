@@ -152,7 +152,6 @@ form button:hover{
 }
 
 #pnr-enquiry{
-    border: 2px solid;
     height: 80vh;
     background-image: url("../img/pnr-bg.jpg");
     background-size: cover;
@@ -207,13 +206,16 @@ form button:hover{
 
 #about{
     text-align: center;
-    width: 90%;
-    padding: 2rem 0;
-    margin: 0 auto;
+    padding: 1.5rem 0;
+    background-color: #e5e5e5;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#about h2{
-    text-align: center;
+#about h1{
+    margin: 0;
 }
 
 #about p{
@@ -346,6 +348,10 @@ footer{
     }
 
     #pnr-form{
+        width: 50%;
+    }
+
+    #about div{
         width: 50%;
     }
 
