@@ -211,9 +211,9 @@ form button:hover{
 
 #about{
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 3rem 0;
     background-color: #e5e5e5;
-    height: 60vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +253,8 @@ form button:hover{
 
 
 footer{
-    height: 60vh;
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -381,6 +382,10 @@ footer{
         width: 50%;
     }
 
+    #about{
+        height: auto;
+        padding: 2rem;
+    }
     #about div{
         width: 50%;
     }
