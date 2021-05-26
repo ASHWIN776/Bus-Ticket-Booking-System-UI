@@ -1,6 +1,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 *, *::after, *::before{
@@ -32,6 +33,34 @@ body{
 .adminDp{
     border-radius: 50%;
 }
+
+#main-content{
+    border: 2px solid red;
+}
+
+
+#welcome{
+    background-color: white;
+    border-bottom: 1px solid rgb(19, 18, 18);
+}
+
+#welcome ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#welcome li{
+    margin: 0 1rem;
+    padding: 1rem 0;
+}
+
+#welcome li:first-child{
+    font-weight: 800;
+}
+
 
 @media only screen and (min-width:1000px){
     #container{
@@ -65,5 +94,13 @@ body{
     .option a:hover{
         color: black;
         background-color: white;
+    }
+
+    #main-content{
+        flex-grow: 1;
+    }
+
+    .info-box{
+        flex-basis: 20%;
     }
 }
