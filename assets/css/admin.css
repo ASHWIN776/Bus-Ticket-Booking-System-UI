@@ -2,6 +2,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
 }
 
 *, *::after, *::before{
@@ -36,10 +37,6 @@ body{
 
 .adminDp{
     border-radius: 50%;
-}
-
-#container{
-    background-color: #E5E5E5;
 }
 
 #welcome{
