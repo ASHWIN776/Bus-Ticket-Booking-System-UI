@@ -1,0 +1,86 @@
+*{
+    font-family: Montserrat;
+}
+
+#booking #head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+#head #search{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#search #wrapper{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0.1rem 0.5rem;
+}
+
+#wrapper input{
+    border: none;
+    font-size: 17px;
+    outline: none;
+}
+
+#wrapper a{
+    color: #8B8989;
+
+}
+
+#wrapper a:hover{
+    color: black;
+
+}
+
+#booking-results{
+    padding: 0 1rem;
+}
+
+#booking-results > div{
+    margin-bottom: 1rem;
+}
+
+#booking-results button{
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+}
+
+.btn{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#add-button{
+    background-color: #62F44A;
+}
+
+table{
+    width: 100%;
+}
+
+table td, th{
+    padding: 0.4rem 1rem;
+    border: 1px solid;
+}
+
+table tr:nth-of-type(2n){
+    background-color: white;
+}
+
+table button{
+    color: white;
+}
+
+.edit-button{
+    background-color: #4370E2;
+}
+
+.delete-button{
+    background-color: #EF0000;
+}
