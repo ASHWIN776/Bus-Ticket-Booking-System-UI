@@ -5,10 +5,180 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d8cfbe84b9.js" crossorigin="anonymous"></script>
+    <!-- External CSS -->
     <link rel="stylesheet" href="../assets/css/admin.css">
     <link rel="stylesheet" href="../assets/css/dashboard.css">
 </head>
 <body>
-    
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li class="nav-item">ADMIN</li>
+                <li class="nav-item">
+                    <img class="adminDp" src="../img/admin_pic.jpg" alt="Admin Profile Pic" width="22px" height="22px">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="container">
+        <div id="sidebar">
+            <img class="adminDp" src="../img/admin_pic.jpg" alt="Admin Profile Pic" width="100px" height="100px">
+            <h3>Admin</h3>
+            <p>Senior Developer</p>
+            <ul id="options">
+                <li class="option">
+                    <a href="#">
+                        Dashboard
+                    </a>
+                </li>
+                <li class="option">
+                    <a href="#">
+                        Bookings
+                    </a>
+                </li>
+                <li class="option">
+                    <a href="#">
+                        Buses
+                    </a>
+                </li>
+                <li class="option">
+                    <a href="#">
+                        Routes    
+                    </a>
+                </li>
+                <li class="option">
+                    <a href="#">
+                        Seats
+                    </a>
+                </li>
+                <li class="option">
+                    <a href="#">
+                        Add New Admin        
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="main-content">
+            <section id="welcome">
+                <ul>
+                    <li class="welcome-item">WELCOME Admin</li>
+                    <li class="welcome-item">
+                        <button id="logout">
+                            LOGOUT
+                        </button>
+                    </li>
+                </ul>
+            </section>
+            <section id="dashboard">
+                <div id="status">
+                    <div class="status-item">
+                        <div class="heading">
+                            <h5>Bookings</h5>
+                            <div class="info">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <p>Total Bookings</p>
+                            <p class="num">24</p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="status-item">
+                        <div class="heading">
+                            <h5>Buses</h5>
+                            <div class="info">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <p>Total Buses</p>
+                            <p class="num">69</p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="status-item">
+                        <div class="heading">
+                            <h5>Routes</h5>
+                            <div class="info">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <p>Total Routes</p>
+                            <p class="num">9</p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="status-item">
+                        <div class="heading">
+                            <h5>Seats</h5>
+                            <div class="info">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <p>Total Seats</p>
+                            <p class="num">50</p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="user">
+                    <div class="user-item">
+                        <div class="heading">
+                            <h5>Customers</h5>
+                            <div class="info">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <p>Total Customers</p>
+                            <p class="num">100</p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <div class="heading">
+                            <h5>Admins</h5>
+                            <div class="info">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <p>Total Admins</p>
+                            <p class="num">6</p>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="admin">
+                    <div class="admin-item">
+                        <img src="" alt="Profile Pic">
+                        <h4>Admin - 1</h4>
+                        <p class="bio">Front End Developer</p>
+                    </div>
+                    <div class="admin-item">
+                        <img src="" alt="Profile Pic">
+                        <h4>Admin - 2</h4>
+                        <p class="bio">Front End Developer</p>
+                    </div>
+                    <div class="admin-item">
+                        <img src="" alt="Profile Pic">
+                        <h4>Admin - 3</h4>
+                        <p class="bio">Front End Developer</p>
+                    </div>
+                    <div class="admin-item">
+                        <img src="" alt="Profile Pic">
+                        <h4>Admin - 4</h4>
+                        <p class="bio">Front End Developer</p>
+                    </div>
+                    <div class="admin-item">
+                        <img src="" alt="Profile Pic">
+                        <h4>Admin - 5</h4>
+                        <p class="bio">Front End Developer</p>
+                    </div>
+                    <div class="admin-item">
+                        <img src="" alt="Profile Pic">
+                        <h4>Admin - 6</h4>
+                        <p class="bio">Front End Developer</p>
+                    </div>
+                </div>
+                <div id="activity">
+                    <h4>Activity here</h4>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

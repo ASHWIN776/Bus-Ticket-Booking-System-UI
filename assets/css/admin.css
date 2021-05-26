@@ -7,3 +7,63 @@ body{
     box-sizing: inherit;
 }
 
+#navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navbar ul{
+    list-style-type: none;
+    padding: 0.4rem 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminDp{
+    border-radius: 50%;
+}
+
+@media only screen and (min-width:1000px){
+    #container{
+        display: flex;
+        background-color: #E5E5E5;
+    }
+
+    #sidebar{
+        text-align: center;
+        background-color: black;
+        color: white;
+        width: 15%;
+    }
+
+    #sidebar h3, #sidebar p{
+        margin: 0;
+    }
+
+    #options{
+        list-style-type: none;
+        text-align: left;
+        padding-left: 0;
+    }
+    .option a{
+        display: block;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .option a:hover{
+        color: black;
+        background-color: white;
+    }
+}
