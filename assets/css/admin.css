@@ -34,11 +34,6 @@ body{
     border-radius: 50%;
 }
 
-#main-content{
-    border: 2px solid red;
-}
-
-
 #welcome{
     background-color: white;
     border-bottom: 1px solid rgb(19, 18, 18);
