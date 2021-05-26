@@ -51,7 +51,7 @@
     text-decoration: none;
     font-weight: bold;
 }
-
+/* START-hardcoding */
 #Booking{
     border-color: #6393EF;
 }
@@ -122,6 +122,23 @@
 #Admin a{
     color: #C6DE33;
 }
+/* END-hardcoding */
+
+
+#admin .info-box{
+    text-align: center;
+    padding: 1rem 0;
+    border: none;
+}
+
+#admin h4{
+    margin: 0.5rem 0;
+}
+
+#admin img{
+    border-radius: 50%;
+}
+
 
 @media only screen and (min-width:1000px){
     #main-content{
@@ -130,5 +147,9 @@
 
     .info-box{
         flex-basis: 20%;
+    }
+
+    #admin .info-box{
+        flex-basis: 15%;
     }
 }
