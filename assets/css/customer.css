@@ -54,8 +54,11 @@
     text-transform: uppercase;
 }
 
+
+#filter-button, 
 #add-button{
-    background-color: #62F44A;
+    background-color: black;
+    color: white;
 }
 
 table{
