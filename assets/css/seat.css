@@ -1,0 +1,61 @@
+*{
+    font-family: Montserrat;
+}
+
+#seat #head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+#head #search{
+    display: flex;
+    align-items: center;
+}
+
+#search #wrapper{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0.1rem 0.5rem;
+}
+
+#wrapper input{
+    border: none;
+    font-size: 17px;
+    outline: none;
+}
+
+#wrapper a{
+    color: #8B8989;
+
+}
+
+#wrapper a:hover{
+    color: black;
+}
+
+#main form{
+    display: flex;
+    padding: 0 1rem;
+}
+
+#main form input, 
+#main form button{
+    margin: 0;
+    padding: 0.4rem  1rem;
+    font-size: 1.1rem;
+}
+
+#main form input{
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    border: 2px solid grey;
+}
+
+#main form button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
