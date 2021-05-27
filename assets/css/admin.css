@@ -5,6 +5,10 @@ body{
     background-color: #E5E5E5;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *, *::after, *::before{
     box-sizing: inherit;
 }
