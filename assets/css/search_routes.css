@@ -10,33 +10,52 @@ body{
 }
 /* Navbar Styling  - START*/
 
-#navbar{
-    padding: 0.5rem 0;
+nav{
     text-align: center;
-    background-color: black;
+    padding: 1.5rem 0;
 }
 
-ul{
+nav div, nav ul{
+    margin-top: 1rem;
+}
+
+nav div:first-child{
+    margin-top: 0;
+}
+
+nav > div a{
+    display: block;
+}
+
+nav ul{
     list-style-type: none;
     padding: 0;
+    margin-bottom: 0;
 }
 
-#navbar a{
-    color: white;
+nav a{
+    padding-bottom: 0.2rem;
     text-decoration: none;
-    display: block;
-    padding: 0.2rem 0;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-#navbar a:not(.nav-logo):hover{
+nav a:not(.nav-logo):hover{
     text-decoration: underline;
+}
+
+.nav-logo{
+    letter-spacing: 5px;
+    transition: none;
 }
 
 
 /* Navbar Styling  - END*/
 
 #searched-route{
-    margin: 2rem 0;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     background-color: black;
     color: white;
 }
@@ -129,10 +148,57 @@ ul{
 
 /* Tablet */
 @media only screen and (min-width: 784px){
+    header{
+        position: absolute;
+        display: block;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+
+    nav > div{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    nav div, nav ul{
+        margin-top: 0;
+    }
+    
+    nav a{
+        border-bottom: 2px solid transparent;
+        margin: 0 1rem;
+        transition: border-color 800ms;
+        border-radius: 2px;
+    }
+
+    nav a:not(.nav-logo):hover{
+        border-color: black;
+        text-decoration: none;
+    }
+    
+    
 
 }
 
 /* Desktops */
 @media only screen and (min-width: 992px){
-
+    nav{
+        width: 80%;
+    }
 }
