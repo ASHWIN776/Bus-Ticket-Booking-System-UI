@@ -14,6 +14,60 @@
     <link rel="stylesheet" href="./assets/css/search_routes.css">
 </head>
 <body>
-    
+    <header>
+        <nav id="navbar">
+            <div>
+                <a href="#" class="nav-item nav-logo">Logo</a>
+                <a href="#" class="nav-item">Gallery</a>
+            </div>
+            <ul>
+                <li><a href="#" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div>
+                <a href="#" class="login nav-item"><i class="fas fa-sign-in-alt" style="margin-right: 0.4rem;"></i>Login</a>
+                <a href="#pnr-enquiry" class="pnr nav-item">PNR Enquiry</a>
+            </div>
+        </nav>
+    </header>
+    <main id="container">
+        <section id="searched-route">
+            <ul>
+                <li class="searched-route-item" id="">Total Results : 100</li>
+                <li class="searched-route-item main-route">Trivandrum <i class="fas fa-arrow-right"></i> Ernakulam</li>
+                <li class="searched-route-item" id="date">29/05/2021</li>
+            </ul>
+        </section>
+        <section id="searched-results">
+            <div id="searched-result-item">
+                <div id="route-id">
+                    <p>Route ID</p>
+                </div>
+                <div id="timing">
+                    <p>00:53 <i class="fas fa-arrow-right"></i> 06:23</p>
+                </div>
+                <div id="route-desc">
+                    <p class="main-route">
+                        Trivandrum <i class="fas fa-arrow-right"></i> Ernakulam
+                    </p>
+                    <p>
+                        <span class="via">Via</span> KLM, ALP, EKM, TSR
+                     </p>
+                </div>
+                <div id="seats-desc">
+                    <span id="num-seats">
+                        30
+                    </span> seats
+                </div>
+                <div id="booking-desc">
+                    <p id="price"><i class="fas fa-rupee-sign"></i> 100</p>
+                    <button id="book-seat-btn">
+                        Select Seats
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
